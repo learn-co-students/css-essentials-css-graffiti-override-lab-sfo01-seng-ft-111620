@@ -1,1 +1,25 @@
 /* write your override styles here */
+#wall .tag-1 {
+  width: 45%;
+  height:30%;
+  margin-top:120px;
+  margin-left:100px;
+}
+
+#wall #tag-2{
+  width:75%;
+  height:50%;
+  margin-top:100px;
+  margin-left:100px;
+}
+
+#wall .parent #tag-4{
+  margin-top:100px;
+  position:relative;
+  z-index:1;
+}
+
+#wall .parent #tag-5 .slick {
+  width:75%;
+  margin-top:0px;
+}
